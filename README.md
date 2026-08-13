@@ -14,6 +14,12 @@ This repository contains a simple Node.js API and a React client used for a user
 
    - After npm install, node modules will get generated
 
+   ```bash
+   # in video
+   npm install
+   npm test
+   npm start
+   ```
 
    <img width="960" height="157" alt="image" src="https://github.com/user-attachments/assets/aeeb55e3-9d14-4625-a290-2a65d080e4ab" />
 
