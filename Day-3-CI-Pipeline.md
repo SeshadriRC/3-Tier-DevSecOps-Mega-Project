@@ -1,3 +1,12 @@
+**Infra Setup**
+
+<img width="669" height="410" alt="image" src="https://github.com/user-attachments/assets/b38fb938-78c4-4089-85de-30a1dcbf38a5" />
+
+
+
+**CI structure**
+<img width="1274" height="689" alt="image" src="https://github.com/user-attachments/assets/3573c196-63e6-420e-8fe5-5976e6e6fda0" />
+
 ```bash
 Developer Commit
        │
