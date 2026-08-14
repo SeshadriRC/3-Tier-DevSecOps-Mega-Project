@@ -2,6 +2,10 @@
 
 <img width="669" height="410" alt="image" src="https://github.com/user-attachments/assets/b38fb938-78c4-4089-85de-30a1dcbf38a5" />
 
+**SG**
+
+<img width="1274" height="333" alt="image" src="https://github.com/user-attachments/assets/c0be563b-f0b0-40f3-9653-a485b3befc31" />
+
 
 
 **CI structure**
@@ -180,3 +184,48 @@ docker push myrepo/myapp:1.0
 Short Interview Answer
 
 The pipeline starts with Git checkout, compilation, GitLeaks secret scanning, Trivy filesystem dependency scanning, unit testing, SonarQube analysis, and quality gate validation. Once the code passes all quality and security checks, the Docker image is built, scanned using Trivy, and then pushed to Docker Hub.
+
+
+**In jenkins EC2**
+
+```bash
+sudo apt update
+
+Ensure jdk is there
+
+Install jenkins using doc
+
+Install git leaks ( sudo apt install gitleaks )
+```
+
+**In sonar EC2**
+
+```bash
+sudo apt install docker.io
+
+sudo usermod -aG docker ubuntu   # ubuntu user will be part of docker group
+
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+```
+
+
+
+### Jenkins Pipeline configuration
+
+- Install **NodeJS*** Tools. if you are installing any tool via plugins, then you need to define it in pipeline in tools block. you can find the command in pipeline syntax. Also note that all tools we can't able to find, for now we can install maven, jdk, node etc.,
+
+<img width="1290" height="612" alt="image" src="https://github.com/user-attachments/assets/c6e6cb32-b982-4eba-abb2-93acf2a7e16c" />
+
+
+---
+- Install **Sonarqube scanner** plugin and configure the tools
+
+<img width="1126" height="452" alt="image" src="https://github.com/user-attachments/assets/29c21ed1-ef93-4eea-8724-3852112044e9" />
+
+- Generate the tokens ( sonar sever ui --> administration --> security --> users --> click token and provide any name --> generate it )
+- Update the creds in jenkins ( Manage jenkins --> creds --> global --> add creds --> kind (secret text) and paste the token. name it as **sonar-token** and description also same.
+- Configure the Sonar Server URL in jenkins ( Manage Jenkins --> System --> add the URL in sonar section )
+
+  <img width="1199" height="652" alt="image" src="https://github.com/user-attachments/assets/0aaaef85-d492-4c72-9514-ef0b5f0dceac" />
+
+---
