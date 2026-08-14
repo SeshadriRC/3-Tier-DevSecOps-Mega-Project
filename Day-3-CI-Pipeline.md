@@ -225,12 +225,20 @@ NodeJS
 
 ### Jenkins Pipeline configuration
 
+
+#### Install NodeJs
+
 - Install **NodeJS*** Tools. if you are installing any tool via plugins, then you need to define it in pipeline in tools block. you can find the command in pipeline syntax. Also note that all tools we can't able to find, for now we can install maven, jdk, node etc.,
 
 <img width="1290" height="612" alt="image" src="https://github.com/user-attachments/assets/c6e6cb32-b982-4eba-abb2-93acf2a7e16c" />
 
 
 ---
+#### Install Sonar
+
+- Scanner -> running inside the jenkins, performing analysis, generating the report and publishing the report in the sonarqube server(UI).
+  to setup a Scanner in jenkins. install sonarqube scanner
+
 - Install **Sonarqube scanner** plugin and configure the tools
 
 <img width="1126" height="452" alt="image" src="https://github.com/user-attachments/assets/29c21ed1-ef93-4eea-8724-3852112044e9" />
@@ -243,8 +251,12 @@ NodeJS
 
 - Add the webhook in sonar. In sonar server UI ( Administration --> Configuration --> Webhook --> paste the jenkins URL ). so that quality gate can work properly.
 
-
 <img width="443" height="506" alt="image" src="https://github.com/user-attachments/assets/e636d30a-3445-49ee-87b5-0c42e7489100" />
 
+---
+
+#### Create pipeline in jenkins
+
+Create job --> check discard old builds --> max (3 builds) and build it
 
 ---
