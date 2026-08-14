@@ -56,11 +56,11 @@ pipeline {
         }
         stage('Trivy FS Scan') {
             steps {
-                sh 'trivy fs --format table -o fs-report.html .'        # at last dot means, in current directory all the files
+                sh 'trivy fs --format table -o fs-report.html .'        ## at last dot means, in current directory all the files
             }
         }
         
-        stage('Build-Tag & Push Backend Docker Image') {
+        stage('Build-Tag & Push Backend Docker Image') {                  ## generate the creds using pipeline syntax
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'docker-cred') {
