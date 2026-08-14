@@ -39,10 +39,10 @@ pipeline {
             }
         }
         
-        stage('SonarQube Analysis') {
-            steps {
-                withSonarQubeEnv('sonar') {
-                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=NodeJS-Project \
+        stage('SonarQube Analysis') {                                                        ## you can generate the pipeline syntax
+            steps { 
+                withSonarQubeEnv('sonar') {                                                  ## sonar is the name of the server which we configured
+                    sh ''' $SCANNER_HOME/bin/sonar-scanner -Dsonar.projectName=NodeJS-Project \     ## input the project name
                             -Dsonar.projectKey=NodeJS-Project '''
                 }
             }
