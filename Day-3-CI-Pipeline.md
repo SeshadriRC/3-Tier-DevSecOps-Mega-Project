@@ -46,55 +46,6 @@ inside Docker image)
 Push Image to Docker Hub
 ```
 
-For a DevOps CI/CD pipeline, the stages should be arranged from source code validation → code quality/security checks → build → image security → artifact publishing.
-
-Recommended Pipeline Flow
-Developer Commit
-       │
-       ▼
-Git Checkout
-       │
-       ▼
-Compilation
-(Syntax & Semantic Checks)
-       │
-       ▼
-GitLeaks Scan
-(Check for passwords, tokens,
-API keys, secrets)
-       │
-       ▼
-Trivy Filesystem Scan
-(Check dependency vulnerabilities
-from pom.xml, package.json,
-requirements.txt, .csproj, etc.)
-       │
-       ▼
-Unit Testing
-(Execute test cases)
-       │
-       ▼
-SonarQube Analysis
-(Bugs, Vulnerabilities,
-Code Smells, Coverage)
-       │
-       ▼
-Quality Gate Check
-(0 Bugs, 0 Vulnerabilities,
-Coverage >= 80%)
-       │
-       ▼
-Docker Image Build
-       │
-       ▼
-Trivy Image Scan
-(Check OS packages &
-application libraries
-inside Docker image)
-       │
-       ▼
-Push Image to Docker Hub
-
 ---
 
 Interview Explanation of Each Stage
