@@ -211,6 +211,17 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 
 
+**Plugins**
+
+```bash
+pipeline stage view
+
+Sonarqube Scanner
+ - you need to configure tools ( Manage jenkins -> Tools -> 
+
+NodeJS
+ - you need to configure tools ( Manage jenkins -> Tools -> 
+```
 
 ### Jenkins Pipeline configuration
 
