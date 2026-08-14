@@ -198,6 +198,8 @@ Install jenkins using doc
 Install git leaks ( sudo apt install gitleaks )
 
 Install trivy , search for ubuntu
+
+Install docker
 ```
 
 **In sonar EC2**
