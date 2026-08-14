@@ -3,7 +3,7 @@ pipeline {
     agent any
     
     tools {
-        nodejs 'nodejs23'
+        nodejs 'nodejs23'                               # in pipeline syntax option generate it, under tools choice
     }
 
     environment {
