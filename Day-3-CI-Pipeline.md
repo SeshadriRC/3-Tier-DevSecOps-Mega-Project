@@ -196,6 +196,8 @@ Ensure jdk is there
 Install jenkins using doc
 
 Install git leaks ( sudo apt install gitleaks )
+
+Install trivy , search for ubuntu
 ```
 
 **In sonar EC2**
@@ -227,5 +229,11 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 - Configure the Sonar Server URL in jenkins ( Manage Jenkins --> System --> add the URL in sonar section )
 
   <img width="1199" height="652" alt="image" src="https://github.com/user-attachments/assets/0aaaef85-d492-4c72-9514-ef0b5f0dceac" />
+
+- Add the webhook in sonar. In sonar server UI ( Administration --> Configuration --> Webhook --> paste the jenkins URL ). so that quality gate can work properly.
+
+
+<img width="443" height="506" alt="image" src="https://github.com/user-attachments/assets/e636d30a-3445-49ee-87b5-0c42e7489100" />
+
 
 ---
