@@ -200,6 +200,10 @@ Install git leaks ( sudo apt install gitleaks )
 Install trivy , search for ubuntu
 
 Install docker
+sudo usermod -aG docker jenkins
+newgrp docker
+
+Restart the jenkins
 ```
 
 **In sonar EC2**
