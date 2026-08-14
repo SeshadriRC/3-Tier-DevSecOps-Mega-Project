@@ -120,15 +120,16 @@ Example:
 - Vulnerabilities	1	0
 - Coverage	75%	≥ 80%
 
+<img width="1115" height="314" alt="image" src="https://github.com/user-attachments/assets/aa04dd38-768e-4180-978d-25865802aae4" />
+
+
 Result:
 
 ❌ Pipeline Fails
 
 If:
+<img width="1104" height="364" alt="image" src="https://github.com/user-attachments/assets/42b67136-8f39-46fd-94be-332bb0e71fa0" />
 
-Metric	Actual	RequiredBugs	0	0
-Vulnerabilities	0	0
-Coverage	85%	≥ 80%
 
 Result:
 
