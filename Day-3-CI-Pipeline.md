@@ -261,6 +261,19 @@ NodeJS
 
 ---
 
+#### Install Docker
+
+- Install docker and setup creds
+
+<img width="1056" height="569" alt="image" src="https://github.com/user-attachments/assets/573e6e5e-94b4-48f2-bfb9-d94131f91878" />
+
+<img width="1103" height="535" alt="image" src="https://github.com/user-attachments/assets/0feb58e7-ff90-4a7b-8ab5-70765c7f0653" />
+
+<img width="1412" height="709" alt="image" src="https://github.com/user-attachments/assets/f56bf2c8-c594-4a61-b96d-6002de0ae678" />
+
+----
+
+
 #### Create pipeline in jenkins
 
 Create job --> check discard old builds --> max (3 builds) and build it
