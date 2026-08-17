@@ -44,5 +44,5 @@ newgrp docker
 <img width="1278" height="589" alt="image" src="https://github.com/user-attachments/assets/a026e047-1317-40a3-9297-46063d6ba371" />
 
 - Run the pipeline, it should get successfull.
-
+- Take the LB endpoint and access it in browser, login with admin creds and check.
 ---
