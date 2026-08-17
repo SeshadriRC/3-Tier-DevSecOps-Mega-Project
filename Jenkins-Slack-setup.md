@@ -1,0 +1,24 @@
+- Create a Slack account and Workspace.
+- Install jenkins in EC2.
+
+<img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/9ee71f7f-8dff-48a3-8114-1473177b3bc1" />
+
+- We need to create an app inside Slack. For this app we need to setup a token for authentication and need to setup permissions for that app to write it in the slack channel
+
+- Navigate to this [url](https://api.slack.com/apps) and click create app --> from scratch
+    - app name: devopsshack
+    - select the workspace which you have created
+
+    <img width="1015" height="682" alt="image" src="https://github.com/user-attachments/assets/3b5b7efd-42eb-4c30-932f-d54d5506d303" />
+
+    <img width="989" height="851" alt="image" src="https://github.com/user-attachments/assets/2323b5d5-673a-4c99-a0c7-5f881749ac7b" />
+
+     <img width="779" height="454" alt="image" src="https://github.com/user-attachments/assets/7b2efca2-34db-4c61-9d1a-a33e8bd4ad41" />
+
+- Click incoming webhooks --> Activate incoming webhooks --> --> Add new webhook --> Select the app and click allow
+
+    <img width="1919" height="818" alt="image" src="https://github.com/user-attachments/assets/99a4f6a9-31eb-4943-b7a5-e1e0ee33f07b" />
+
+    <img width="1911" height="827" alt="image" src="https://github.com/user-attachments/assets/b280451b-d0dd-47ae-b372-2832f8e5c7d8" />
+
+- Setup OAuth permissions 
