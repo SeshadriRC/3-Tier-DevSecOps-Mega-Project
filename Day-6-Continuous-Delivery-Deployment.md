@@ -5,6 +5,7 @@
 ### Continuous Deployment
 
 - Its completely Automatic, no manual approval is required.
+- If you removal the approval step, then it will become continuous deployment.
 
 <img width="1107" height="524" alt="image" src="https://github.com/user-attachments/assets/426f4b09-7aec-43c7-af03-e2e66bcd11e5" />
 
