@@ -103,3 +103,8 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main
 kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.12.0/cert-manager.yaml
 ```
 
+### Implement the RBAC using following doc
+
+```bash
+https://github.com/SeshadriRC/Mega-Project-Terraform/blob/main/RBAC/rbac.md
+```
