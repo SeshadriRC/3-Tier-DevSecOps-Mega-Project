@@ -30,7 +30,7 @@ sudo apt-get update && sudo apt-get install terraform -y
 terraform -version
 ```
 
-- After this clone this [repo](https://github.com/SeshadriRC/Mega-Project-Terraform) and run `terraform apply --auto-approve`
+- After this clone this [repo](https://github.com/SeshadriRC/Mega-Project-Terraform) and run `terraform apply --auto-approve`. Make sure before applying you are changing the ``ssh_key_name``
 
 
 ## ☸️ Configure kubeconfig for EKS
