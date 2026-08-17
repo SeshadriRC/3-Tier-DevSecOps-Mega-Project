@@ -3,6 +3,7 @@
 
 This guide installs and configures the AWS CLI, Terraform, kubectl, eksctl, and sets up EKS with EBS CSI, NGINX Ingress, and cert-manager.
 
+- After provisioning the `t2.medium` ec2, run the below commands
 
 ## 📦 Install AWS CLI
 
@@ -28,6 +29,8 @@ sudo apt-get update && sudo apt-get install terraform -y
 
 terraform -version
 ```
+
+- After this clone this [repo](https://github.com/SeshadriRC/Mega-Project-Terraform) and run `terraform apply --auto-approve`
 
 
 ## ☸️ Configure kubeconfig for EKS
