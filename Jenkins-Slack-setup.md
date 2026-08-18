@@ -21,4 +21,34 @@
 
     <img width="1911" height="827" alt="image" src="https://github.com/user-attachments/assets/b280451b-d0dd-47ae-b372-2832f8e5c7d8" />
 
-- Setup OAuth permissions 
+- Setup OAuth Scope
+     Oauths and permissions -->  Scopes
+
+<img width="1919" height="942" alt="image" src="https://github.com/user-attachments/assets/55ee7b36-0e40-4ffa-a6ce-39d10e8be046" />
+
+<img width="1909" height="807" alt="image" src="https://github.com/user-attachments/assets/3f52f666-867e-4f56-9dc6-9fa6acbad8da" />
+
+- Click install token and select the channel
+
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/013bc2ab-204e-4ffe-9e79-c64312601e9c" />
+
+- Then copy the OAuth token
+
+<img width="895" height="240" alt="image" src="https://github.com/user-attachments/assets/3e9a0a48-a1fb-4e8e-ab8a-43835d9746f1" />
+
+- Now login to jenkins and install the slack plugin
+
+<img width="1414" height="335" alt="image" src="https://github.com/user-attachments/assets/c3610811-85e3-4461-8bfb-90c2b3697fa7" />
+
+- Manage Jenkins --> System --> Slack
+
+   - workspace -> enter your workspace name
+   - channel -> enter the channel name
+   - token -> paste the token which you have copied, test connection . it should get succees
+
+<img width="1417" height="634" alt="image" src="https://github.com/user-attachments/assets/7ee24f2b-1111-44d5-a8fa-c850ec473473" />
+
+- After giving test, it should show like below
+
+<img width="704" height="331" alt="image" src="https://github.com/user-attachments/assets/1a21f9e2-cb3c-4b9c-b0c2-5cf988dd2f97" />
+
