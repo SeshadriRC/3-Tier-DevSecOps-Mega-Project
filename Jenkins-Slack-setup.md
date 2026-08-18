@@ -52,3 +52,10 @@
 
 <img width="704" height="331" alt="image" src="https://github.com/user-attachments/assets/1a21f9e2-cb3c-4b9c-b0c2-5cf988dd2f97" />
 
+- Add the webhook URL of slack in jenkins
+
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/2082724c-a8ea-473c-884d-bf6218fb7655" />
+
+
+<img width="1440" height="635" alt="image" src="https://github.com/user-attachments/assets/70e0b68a-3dde-4c1f-abaa-7359c4adeb82" />
+
