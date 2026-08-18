@@ -11,6 +11,9 @@
 **CI structure**
 <img width="1274" height="689" alt="image" src="https://github.com/user-attachments/assets/3573c196-63e6-420e-8fe5-5976e6e6fda0" />
 
+<img width="800" height="1200" alt="image" src="https://github.com/user-attachments/assets/4313eb5c-5197-4534-8a38-67ac616903f6" />
+
+
 ```bash
 Developer Commit
        │
