@@ -59,3 +59,9 @@
 
 <img width="1440" height="635" alt="image" src="https://github.com/user-attachments/assets/70e0b68a-3dde-4c1f-abaa-7359c4adeb82" />
 
+- Now run the pipeline, code take from the mega project devsecops repo.
+- So if it success, it will show in slack
+
+<img width="1392" height="662" alt="image" src="https://github.com/user-attachments/assets/b1ccb373-b035-42b4-8403-620307d8225d" />
+
+- try for failure from ur end.
